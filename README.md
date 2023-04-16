@@ -51,7 +51,7 @@ To stop the app, find its process ID and terminate it:
 ```
 ps aux | grep main.py
 kill <process_id>
-
+```
 
 Replace `<process_id>` with the actual process ID of your script.
 
