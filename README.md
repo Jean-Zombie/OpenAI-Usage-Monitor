@@ -16,21 +16,25 @@ You'll need Python 3.6 or higher installed on your machine and macOS as your ope
 
 1. Clone this repository:
 
+   ```
    git clone https://github.com/Jean-Zombie/OpenAI-Usage-Monitor.git
    cd OpenAI-Usage-Monitor
+   ```
 
 2. Create a virtual environment and activate it:
 
+   ```
    python3 -m venv venv
    source venv/bin/activate
+   ```
 
 3. Install the required packages:
 
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 4. Create a `.env` file in the project root directory and add your OpenAI API key:
 
-   API_KEY=your_openai_api_key
+   `API_KEY=your_openai_api_key`
 
    Replace `your_openai_api_key` with your actual API key.
 
@@ -38,14 +42,16 @@ You'll need Python 3.6 or higher installed on your machine and macOS as your ope
 
 To run the app in the background, open a terminal, navigate to the project directory, and execute the following command:
 
-nohup python main.py &
+`nohup python main.py &`
 
 Your terminal will be available for use after running the command.
 
 To stop the app, find its process ID and terminate it:
 
+```
 ps aux | grep main.py
 kill <process_id>
+
 
 Replace `<process_id>` with the actual process ID of your script.
 
