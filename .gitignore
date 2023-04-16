@@ -1,0 +1,5 @@
+.env
+.vscode
+__pycache__
+nohup.out
+.DS_Store
