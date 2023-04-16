@@ -30,19 +30,24 @@ You'll need Python 3.6 or higher installed on your machine and macOS as your ope
 
 3. Install the required packages:
 
-   `pip install -r requirements.txt`
+   ```
+   pip install -r requirements.txt
+   ```
 
 4. Create a `.env` file in the project root directory and add your OpenAI API key:
 
-   `API_KEY=your_openai_api_key`
-
+   ```
+   API_KEY=your_openai_api_key
+   ```
    Replace `your_openai_api_key` with your actual API key.
 
 ### Running the App
 
 To run the app in the background, open a terminal, navigate to the project directory, and execute the following command:
 
-`nohup python main.py &`
+```
+nohup python main.py &
+```
 
 Your terminal will be available for use after running the command or you could close it altogether.
 
