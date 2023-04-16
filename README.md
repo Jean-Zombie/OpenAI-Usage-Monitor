@@ -16,8 +16,8 @@ You'll need Python 3.6 or higher installed on your machine and macOS as your ope
 
 1. Clone this repository:
 
-   git clone https://github.com/your_username/OpenAIUsage.git
-   cd OpenAIUsage
+   git clone https://github.com/Jean-Zombie/OpenAI-Usage-Monitor.git
+   cd OpenAI-Usage-Monitor
 
 2. Create a virtual environment and activate it:
 
