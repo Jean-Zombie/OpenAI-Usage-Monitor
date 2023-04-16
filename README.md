@@ -44,9 +44,9 @@ To run the app in the background, open a terminal, navigate to the project direc
 
 `nohup python main.py &`
 
-Your terminal will be available for use after running the command.
+Your terminal will be available for use after running the command or you could close it altogether.
 
-To stop the app, find its process ID and terminate it:
+To stop the app use `Quit` in it’s menu, or find its process ID and terminate it:
 
 ```
 ps aux | grep main.py
