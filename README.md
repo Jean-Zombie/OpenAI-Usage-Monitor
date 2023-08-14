@@ -1,5 +1,7 @@
 # OpenAI Usage Monitor
 
+**OpenAi now requires a session key for requests to the billing and usage endpoints, therefore this app as it is won’t work anymore!**
+
 A simple menu bar app for macOS to monitor your OpenAI API usage. The app shows the total usage cost for the current month and refreshes the information every minute.
 
 **Note**: This app is designed to work on macOS only.
